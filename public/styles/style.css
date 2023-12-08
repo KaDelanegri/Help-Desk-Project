@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center; /* Adição desta linha para centralizar o texto */
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: calc(100% - 20px);
+    max-width: calc(100% - 20px); /* Adição desta linha */
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Adição das linhas abaixo */
+    resize: vertical;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+button {
+    padding: 6px; /* Ajuste o tamanho do padding conforme necessário */
+    margin-bottom: 16px;
+    margin: 0 auto; /* Adição desta linha para centralizar o botão */
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px; /* Adição desta linha para ajustar o tamanho da fonte */
+}
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+.error-message {
+    color: #ff6347;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 16px;
+}
+
+.back-to-list {
+    display: block;
+    margin-top: 16px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .back-to-list:hover {
+        color: #4caf50;
+    }
