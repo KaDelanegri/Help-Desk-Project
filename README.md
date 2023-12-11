@@ -4,7 +4,7 @@
 
 This project builds a Technical Support Portal (Help Desk) using Node.js, Express, MongoDB, and Handlebars.
 
-	![Project image on Google Chrome](Help-Desk-Project\content\project_image.png)
+![Project image on Google Chrome](Help-Desk-Project\content\project_image.png)
 
 
 ## Installation and Setup
