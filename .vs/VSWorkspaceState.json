@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\content",
+    "\\public",
+    "\\public\\styles",
+    "\\views"
   ],
-  "SelectedNode": "\\Style.css",
+  "SelectedNode": "\\content",
   "PreviewInSolutionExplorer": false
 }
